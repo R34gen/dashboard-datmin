@@ -1,0 +1,55 @@
+{
+  "duckdb_version": "1.4.1",
+  "files": [
+    {
+      "file": "ipm_2025.duckdb",
+      "bytes": 798720,
+      "sha256": "2ad20b7a3d26b4d15f5ed1e928492d046c365778d204c4a648d1e7d3408c6d82",
+      "tables": {
+        "main.ipm": 38,
+        "metadata.sumber": 1
+      }
+    },
+    {
+      "file": "lama_sekolah_2025.duckdb",
+      "bytes": 1060864,
+      "sha256": "da28a8cea7a365139395791c99e2e3f43966eb3cce1661e4c13cf751b92152fb",
+      "tables": {
+        "main.agregat_provinsi": 1,
+        "main.rata_lama_sekolah": 38,
+        "metadata.sumber": 1
+      }
+    },
+    {
+      "file": "sekolah_guru_murid.duckdb",
+      "bytes": 1323008,
+      "sha256": "a238860eb16c5d0d59a043b69ea0815dee716fe2e808b3547c55e0793d5b281d",
+      "tables": {
+        "main.jumlah_guru": 38,
+        "main.jumlah_murid": 38,
+        "main.jumlah_sekolah": 38,
+        "metadata.sumber": 1
+      }
+    },
+    {
+      "file": "warehouse_jatim.duckdb",
+      "bytes": 3944448,
+      "sha256": "44204beb33ad1b47620be3912e965fa76aa6f312650f8cd99747d7a553d65c59",
+      "tables": {
+        "dw.dim_tahun": 1,
+        "dw.dim_wilayah": 38,
+        "dw.fact_indikator_pendidikan": 38,
+        "raw.ipm": 38,
+        "raw.jumlah_guru": 38,
+        "raw.jumlah_murid": 38,
+        "raw.jumlah_sekolah": 38,
+        "raw.rata_lama_sekolah": 38
+      }
+    }
+  ],
+  "warehouse_totals": [
+    25521,
+    294886,
+    4282023
+  ]
+}
