@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+*.duckdb.wal
+*.ducklake
+*.ducklake.wal
+*.ducklake.files/
